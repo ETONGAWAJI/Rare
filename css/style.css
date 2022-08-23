@@ -1035,17 +1035,26 @@ footer .foot-text span {
     }
     
     .search-box.active {
-        width: 70px;
+        width: 45px;
         background: #fff;
     }
 
     .search-box .search_txt.active {
-        width: 70px;
+        width: 45px;
         background: none;
         box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
         border-radius: 40px;
         opacity: 0.8;
     }
+    
+    .search-box .cancel_btn.active {
+    display: flex;
+    color: #fff;
+    margin-left: -35px;
+    transform: rotate(360deg);
+    opacity: 0.3;
+    }
+    
 }
 
 @media (max-width: 690px) {
