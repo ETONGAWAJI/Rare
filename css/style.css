@@ -1035,7 +1035,7 @@ footer .foot-text span {
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 690px) {
     .max-width {
         padding: 0 23px;
     }
@@ -1065,7 +1065,7 @@ footer .foot-text span {
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 500px) {
     .menu-btn {
         display: block;
         z-index: 2;
